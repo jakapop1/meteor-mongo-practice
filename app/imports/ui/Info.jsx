@@ -1,14 +1,17 @@
 import React from 'react';
-import { useFind, useSubscribe } from 'meteor/react-meteor-data';
+import { useTracker } from 'meteor/react-meteor-data';
 import { LinksCollection } from '../api/links';
+import { PeopleCollection} from '../api/PeopleCollection';
 
 export const Info = () => {
-  const isLoading = useSubscribe('links');
-  const links = useFind(() => LinksCollection.find());
+  const links = useTracker(() => {
+    return LinksCollection.find().fetch();
+  });
 
-  if(isLoading()) {
-    return <div>Loading...</div>;
-  }
+  const people = useTracker(() => {
+    return PeopleCollection.find().fetch();
+  });
+
 
   return (
     <div>

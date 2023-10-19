@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bc5b2dd-d930-45ba-83c0-3cdf7c663cbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/server/PeopleInitialization.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/server/PeopleInitialization.js" afterDir="false" />
-    </list>
+    <list default="true" id="8bc5b2dd-d930-45ba-83c0-3cdf7c663cbe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
